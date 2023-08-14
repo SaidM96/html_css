@@ -1,0 +1,38 @@
+h1, h2{
+    color:green;
+    background-color: brown;
+    width: max-content;
+    
+}
+
+p{
+    color: blue;
+    background-color: aqua;
+    font-size: 15px;
+    text-decoration: underline;
+    font-family: Arial;
+    text-align: left;
+    line-height: 30px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container > div {
+    background-color: green;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
+#form{
+    color: rgb(12, 12, 160);
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: Arial;
+    text-align: left;
+    line-height: 30px;
+}
